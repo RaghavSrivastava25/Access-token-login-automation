@@ -40,11 +40,11 @@ from selenium.webdriver.chrome.options import Options
 
 class ZerodhaAccessToken:
     def __init__(self):
-        self.apiKey = 'vw94w5y5xxmfrujf'
-        self.apiSecret = 'cnki8k8r6i0hjh2yfnmi68hulopqui7q'
-        self.accountUserName = 'MH4213'
-        self.accountPassword = 'Nn_123456'
-        self.securityPin = '123456'
+        self.apiKey = 'XXXXX'
+        self.apiSecret = 'XXXXX'
+        self.accountUserName ='XXXXX'
+        self.accountPassword = 'XXXXX'
+        self.securityPin = 'XXXXX'
 
     def getaccesstoken(self):
         try:
