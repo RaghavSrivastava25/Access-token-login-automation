@@ -7,8 +7,8 @@
 from telethon.sync import TelegramClient
 from telethon.sessions.memory import MemorySession
 
-api_id = 22740769
-api_hash = 'f15137d044ff341e187c61195d915796'
+api_id = 'XXXXX'
+api_hash = 'XXXXX'
 # Create the MemorySession
 session = MemorySession()
 
@@ -19,7 +19,7 @@ client = TelegramClient(session, api_id, api_hash)
 await client.start()
 
 # Get the user's ID
-user_id = 5782610197
+user_id = 'XXXXX'
 
 # Send the user a message
 await client.send_message(user_id, 'Error!')
