@@ -70,12 +70,12 @@ selenium.__version__
 
 ### Credentials of zerodha historial
 # shikha tanwar 
-zerodha_api_key = "vw94w5y5xxmfrujf"
-zerodha_api_secrets = "cnki8k8r6i0hjh2yfnmi68hulopqui7q"
-zerodha_user_id = "MH4213"
-zerodha_password = "Nn_123456"
-zerodha_totp_key = "W3HMHYHFJ4AXXIHRTOHHAJXZJPJARON6"
-zerodha_pin = "123456"
+zerodha_api_key = "XXXXX"
+zerodha_api_secrets = "XXXXX"
+zerodha_user_id = "XXXXX"
+zerodha_password = "XXXXX"
+zerodha_totp_key = "XXXXX"
+zerodha_pin = "XXXXX"
 
 path=Path(r'C:\B120_orders\zerodha')
 #exit_file_path = Path(r"C:\B120_orders\Helper\logfile")
@@ -162,7 +162,7 @@ access_token=(pd.read_csv(r"C:\B120_orders\zerodha\zerodha_access_token.csv"))['
 # In[ ]:
 
 
-kite = KiteConnect(api_key='vw94w5y5xxmfrujf') 
+kite = KiteConnect(api_key='XXXXX') 
 kite.set_access_token(access_token)
 print("Kite Connection Established")
 
@@ -209,7 +209,7 @@ trading_symbols = (nifty_above_50_trading_symbol_list + nifty_below_50_trading_s
 # In[ ]:
 
 
-kws = KiteTicker('vw94w5y5xxmfrujf', access_token)
+kws = KiteTicker('XXXXX', access_token)
 
 # All Tokens list (Banknifty and nifty)
 tokens = (nifty_above_50_CE_PE_token + nifty_below_50_CE_PE_token + banknifty_above_50_CE_PE_token + banknifty_below_50_CE_PE_token)
